@@ -24,6 +24,3 @@ print("\nJangan patah semangat, keep doing!!!")
 print()
 print("===== Program by Wildan Malaki =====")
 print("Praktik python dari mahaguru ChatGPT")
-
-    
-
