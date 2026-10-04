@@ -86,7 +86,6 @@ riwayatMusicWildan = {
     }
 }
 
-print("lagu terakhir yang kamu dengar adalah :",riwayatMusicWildan[1])
 print("====================================)")
 time.sleep(3)
 print("Riwayat lagu-lagumu dari youtube music adalah :",riwayatMusicWildan[1]["judul"])
@@ -112,11 +111,13 @@ time.sleep(1)
 
 pencet = input(f"Mas {namaLengkap} berikut adalah riwayat judul-judul yang kamu dengarkan tadi.. (pencet apa aja biar next yeee)")
 
-for nomor in range(1,11):
-    print(riwayatMusicWildan[1]["judul"])
-    print(riwayatMusicWildan[2]["artis"])
-    print(riwayatMusicWildan[3]["platform"])
-    print(riwayatMusicWildan[4]["menit"])
+for nomor in range(1, 11):
+    lagu = riwayatMusicWildan[nomor]
+    print(f"{nomor}. {lagu['judul']}")
+    print(f"   Artis    : {lagu['artis']}")
+    print(f"   Platform : {lagu['platform']}")
+    print(f"   Durasi   : {lagu['menit']} menit")
+    print("-" * 30)
 
 
 
