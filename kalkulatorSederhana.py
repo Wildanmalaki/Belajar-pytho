@@ -11,7 +11,6 @@ print()
 
 #perulangan program
 while True:
-
 #Deklarasi + inisial
     angka_1 = float(input("Silahkan masukan angka pertama   : "))
     aritmatika = input("Operator (+,-,x,/)               : ")

@@ -50,6 +50,7 @@ database = {
     },
 }
 
+#mengganti ID diluar dari Dictionary
 database[1]["ID"] = 1
 
 for nomor in range(1,5):
